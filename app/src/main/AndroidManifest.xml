@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.mrcsfelipe.testando" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Index"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CadastrarUsuarioActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="br.com.mrcsfelipe.testando.UsuarioCadastrado">
+            <intent-filter>
+                <action android:name="helloandroid.ACAO_EXIBIR_SAUDACAO" />
+                <category android:name="helloandroid.CATEGORIA_SAUDACAO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="br.com.mrcsfelipe.testando.ListarUsuario">
+            <intent-filter>
+                <action android:name="Intent.ListarUsuario" />
+                <category android:name="Intent.category.ListarUsuario" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlIndex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/index">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:id="@+id/tvCadastrar"
+        android:clickable="true"
+        android:drawableTop="@drawable/img_create_person"
+        android:onClick="opcaoSelecionada"
+        android:layout_alignTop="@+id/tvListar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Listar"
+        android:id="@+id/tvListar"
+        android:clickable="true"
+        android:drawableTop="@drawable/img_list_person"
+        android:onClick="opcaoSelecionada"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp" />
+</RelativeLayout>
