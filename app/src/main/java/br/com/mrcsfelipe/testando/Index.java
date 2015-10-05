@@ -18,7 +18,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeSet;
 
-import br.com.mrcsfelipe.testando.entity.Testando;
 import br.com.mrcsfelipe.testando.entity.Usuario;
 
 /**
@@ -30,9 +29,6 @@ public class Index extends Activity {
     private RelativeLayout rlIndex;
     private GestureDetector detector = null;
     private float x = 48, y =109;
-
-
-
 
 
     private boolean cadastrar =true , listar = false;
